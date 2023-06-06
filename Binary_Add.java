@@ -24,11 +24,11 @@ class binary_add
    			sum[i++]=r;
   		}
   		--i;
-  		System.out.print("Sum of two binary numbers: ");
+  		System.out.printf("Sum of two binary numbers: ");
   		while (i >= 0) 
   		{
-   			System.out.print(sum[i--]);
+   			System.out.printf(sum[i--]);
   		}
-   		System.out.print("\n");  
+   		System.out.printf("\n");  
  	}
 }
